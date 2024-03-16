@@ -117,8 +117,5 @@ This is a Node.js project for a manga store web application. Users can browse, s
 
 ## Contributors
 
-- [Your Name](link-to-your-github-profile) - Developer
+- [Shivam Devrani](https://github.com/ShivamDevrani) - Developer
 
-## License
-
-This project is licensed under the [MIT License](link-to-license-file).
