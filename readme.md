@@ -2,6 +2,15 @@
 
 This is a Node.js project for a manga store web application. Users can browse, search, review, add to cart, and order manga books. Additionally, there's an admin panel for managing the manga store.
 
+##admin email and password to login
+{
+
+  "email":"devranishivam1121@gmail.com",
+ 
+  "password":"qwerty1234",
+
+  } 
+
 ## Functionalities
 
 1. **User Authentication using JWT**: Users can sign up, log in, and maintain their profiles securely.
