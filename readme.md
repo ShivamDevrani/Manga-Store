@@ -41,13 +41,13 @@ This is a Node.js project for a manga store web application. Users can browse, s
   - JSON Format:
     ```json
     {
-  "name":"shivam",
-  "email":"devranishivam1121@gmail.com",
-  "address":"jabalpur",
-  "password":"qwerty1234",
-  "role":"admin"
+     "name":"shivam",
+     "email":"devranishivam1121@gmail.com",
+      "address":"jabalpur",
+     "password":"qwerty1234",
+     "role":"admin"
  
-}
+    }
     ```
 - `POST /user/login`: Login to the website.
   - JSON Format:
