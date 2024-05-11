@@ -41,12 +41,13 @@ This is a Node.js project for a manga store web application. Users can browse, s
   - JSON Format:
     ```json
     {
-      "name": "example",
-      "email": "example@example.com",
-      "address": "123 Example St",
-      "password": "password123",
-      "role": "user"
-    }
+  "name":"shivam",
+  "email":"devranishivam1121@gmail.com",
+  "address":"jabalpur",
+  "password":"qwerty1234",
+  "role":"admin"
+ 
+}
     ```
 - `POST /user/login`: Login to the website.
   - JSON Format:
@@ -63,9 +64,9 @@ This is a Node.js project for a manga store web application. Users can browse, s
   - JSON Format:
     ```json
     {
-      "oldPassword": "password123",
-      "newPassword": "newpassword123"
-    }
+    "oldPassword":qwerty1121 ,
+    "newPassword":"qwerty"
+}
     ```
 
 #### Manga Operations
@@ -97,9 +98,9 @@ This is a Node.js project for a manga store web application. Users can browse, s
   - JSON Format:
     ```json
     {
-      "quantity": 3,
-      "payment": "UPI"
-    }
+    "quantity":3,
+    "payment":"UPI"  or  "COD"
+   }
     ```
 
 ### Admin Routes
@@ -108,11 +109,13 @@ This is a Node.js project for a manga store web application. Users can browse, s
   - JSON Format:
     ```json
     {
-      "mangaName": "Example Manga",
-      "mangaPrice": 10,
-      "mangaGenre": ["Action", "Adventure"],
-      "mangaAuthor": "Manga Author"
-    }
+   
+    "mangaName":"attack on titan",
+    "mangaPrice":2000,
+    "mangaGenre":["thriller","action"],
+    "mangaAuthor":"Hajime Isayama"
+    
+}
     ```
 - `DELETE /admin/manga/:id`: Delete manga from the store.
 - `PUT /admin/manga/:id`: Update manga details.
