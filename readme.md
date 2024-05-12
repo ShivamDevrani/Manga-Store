@@ -15,20 +15,21 @@ This is a Node.js project for a manga store web application. Users can browse, s
 
 1. **User Authentication using JWT**: Users can sign up, log in, and maintain their profiles securely.
 
-2. **Search Manga Books**: Users can search for manga books using the author, name, or genre using query strings.
+2. **Search Manga Books**: Users can search for manga books using the author, name, or genre using query strings. example : /user/manga?mangaGenre=romantic
+  
 
-3. **View Manga Details**: Users can select any manga book and get its details.
+4. **View Manga Details**: Users can select any manga book and get its details.
 
-4. **Review Mangas**: Users can review and rate manga books.
+5. **Review Mangas**: Users can review and rate manga books.
 
-5. **Cart Operations**:
+6. **Cart Operations**:
    - Add manga to the cart.
    - View the cart.
    - Remove items from the cart.
 
-6. **Checkout Option**: Users can place orders with selected books along with date and time.
+7. **Checkout Option**: Users can place orders with selected books along with date and time.
 
-7. **Admin Panel**:
+8. **Admin Panel**:
    - Only admin can add, edit, and remove books from the store.
    - There can only be one admin.
 
